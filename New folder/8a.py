@@ -1,0 +1,10 @@
+text='Welcome to M.L.Bharathesh polytechnic'
+print(text)
+print("\n convert to upper case:")
+print(text.upper())
+print("\n convert to lower case:")
+print(text.lower())
+word=(text.split())
+print("n\ after spliting:")
+print(word)
+print(list(reversed(text)))

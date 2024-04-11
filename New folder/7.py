@@ -1,0 +1,10 @@
+colleges=code{"Name":"MLBP","Code":"India","ID":"315"}
+print(colleges)
+colleges["location"]="Belgavi"
+print(colleges)
+colleges["location"]="B.Kuduchi"
+print(colleges)
+colleges.pop("code")
+print(colleges)
+mycolleges=colleges.copy()
+print(mycolleges)
